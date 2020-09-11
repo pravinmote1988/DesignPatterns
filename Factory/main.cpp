@@ -8,6 +8,7 @@ int main() {
 
     Toy* car = factory.create_toy(ToyType::Car);
     car->run();
+    
     Toy* bike = factory.create_toy(ToyType::Bike);
     bike->run();
 
